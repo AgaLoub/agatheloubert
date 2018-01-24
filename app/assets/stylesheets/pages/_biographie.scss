@@ -1,0 +1,45 @@
+#presentation h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+.title ul {
+  margin-top: 30px;
+}
+.title li a {
+      color: #333333;
+      text-decoration: underline;
+    }
+.title li a:hover {
+      color: #0074E4;
+      cursor: pointer;
+    }
+.title h4 {
+  text-align: center;
+}
+.title .reseaux {
+  list-style: none;
+  i {
+    padding: 0 20px;
+    font-size: 40px;
+    margin-left: 50px;
+  }
+  i:hover {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+  .fa-linkedin-square {
+    color: #0073BB;
+  }
+}
+.description {
+  margin-top: 30px;
+  margin-bottom: 80px;
+  text-align: justify;
+}
+
+@media (max-width: 1000px) {
+  .description {
+    padding: 0px 10px;
+  }
+}

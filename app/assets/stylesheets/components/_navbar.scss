@@ -21,10 +21,6 @@
   }
 }
 
-/* Logo */
-// .navbar-wagon-brand img {
-//   height: 50px;
-// }
 .photo {
   height: 80px;
   border-radius: 50%;
@@ -32,10 +28,10 @@
 }
 
 /* User Avatar */
-.navbar-wagon .avatar {
-  height: 35px;
-  width: 35px;
+.avatar {
   border-radius: 50%;
+  height: 100px;
+  background-position: cover;
 }
 
 /* Right section */
@@ -57,7 +53,7 @@
   font-size: 14px;
 }
 .navbar-wagon-link:hover {
-  color: #da552f;
+  color: #CF1B1B;
   text-decoration: none;
 }
 

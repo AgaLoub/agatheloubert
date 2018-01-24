@@ -1,0 +1,36 @@
+.banner-container {
+  text-align: center;
+  background-size: cover;
+  // width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+.text {
+  font-weight: bold;
+  padding-top: 150px;
+  color: white;
+}
+.text h4 {
+  padding-top: 25px;
+}
+
+
+@media (max-width: 1000px) {
+ .banner-container {
+  background-position: center;
+ }
+ .text {
+  padding-top: 130px;
+  padding-right: 20px;
+  padding-left: 20px;
+ }
+ .text h4 {
+  display: none;
+ }
+}
+
+@media (max-width: 768px) {
+  .text h2 {
+    font-size: 30px;
+  }
+}
