@@ -6,5 +6,42 @@
 .infos h2 {
   text-align: center;
   margin-top: 50px;
+  p {
+    text-align: center;
+  }
+}
+.intro-contact {
+  text-align: center;
+  margin-top: 30px;
 }
 
+.bloc-infos {
+  text-align: center;
+}
+.list-contact {
+  background-color: white;
+  list-style: none;
+  margin: 30px 520px;
+  margin-bottom: 50px;
+  padding: 30px 15px;
+  line-height: 40px;
+  font-family: $body-font;
+  border: 1px solid black;
+  li a {
+    color: black;
+  }
+  li a:hover {
+    color: #0074E4;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
+.fa-linkedin-square {
+  color: #0073BB;
+  :hover {
+    cursor: pointer;
+  }
+}
+.fa-envelope-o {
+  color: black;
+}

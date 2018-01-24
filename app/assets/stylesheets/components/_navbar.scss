@@ -27,12 +27,6 @@
   margin-top: 25px;
 }
 
-/* User Avatar */
-.avatar {
-  border-radius: 50%;
-  height: 100px;
-  background-position: cover;
-}
 
 /* Right section */
 .navbar-wagon-right {
@@ -86,4 +80,10 @@
   transform: rotate(45deg);
   border-left: 1px solid #E6E6E6;
   border-top: 1px solid #E6E6E6;
+}
+
+@media (max-width: 768px) {
+  .photo {
+    height: 50px;
+  }
 }
