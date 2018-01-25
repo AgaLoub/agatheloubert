@@ -14,6 +14,18 @@
   padding-top: 25px;
 }
 
+.ml15 {
+  // font-weight: 800;
+  // font-size: 3.8em;
+  // text-transform: uppercase;
+  // letter-spacing: 0.2em;
+}
+
+.ml15 .word {
+  display: inline-block;
+  line-height: 1em;
+}
+
 
 @media (max-width: 1000px) {
  .banner-container {
