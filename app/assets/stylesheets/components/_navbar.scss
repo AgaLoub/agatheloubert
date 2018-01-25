@@ -20,14 +20,6 @@
     font-weight: bold;
   }
 }
-
-.photo {
-  height: 80px;
-  border-radius: 50%;
-  margin-top: 25px;
-}
-
-
 /* Right section */
 .navbar-wagon-right {
   display: flex;
@@ -44,10 +36,10 @@
 /* Navbar link */
 .navbar-wagon-link {
   color: #616668;
-  font-size: 14px;
+  font-size: 18px;
 }
 .navbar-wagon-link:hover {
-  color: #CF1B1B;
+  color: $red;
   text-decoration: none;
 }
 
@@ -82,8 +74,3 @@
   border-top: 1px solid #E6E6E6;
 }
 
-@media (max-width: 768px) {
-  .photo {
-    height: 50px;
-  }
-}

@@ -1,47 +1,54 @@
 #contact {
   width: 100%;
-  // margin-top: 80px;
   background-color: #F4F4F4;
 }
-.infos h2 {
-  text-align: center;
-  margin-top: 50px;
-  p {
+.infos p {
     text-align: center;
   }
-}
-.intro-contact {
-  text-align: center;
-  margin-top: 30px;
-}
 
+.infos
+  h2 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-weight: bolder;
+    position: relative;
+    letter-spacing: 2px;
+  }
+  .infos h2:after{
+    content: "";
+    position: absolute;
+    width: 4%;
+    height: 1px;
+    bottom: -10px;
+    left: 48%;
+    border-bottom: 5px solid #333333;
+  }
+
+
+.contact-form {
+  background-color: white;
+  border: 1px solid #90A4AE;
+  padding: 10px 50px;
+  margin: 0px 250px;
+  textarea {
+    border: 2px solid #e7ecf1;
+  }
+}
+.form-control {
+  margin: 20px 0px;
+  border: 2px solid #e7ecf1;
+}
 .bloc-infos {
   text-align: center;
-}
-.list-contact {
-  background-color: white;
-  list-style: none;
-  margin: 30px 520px;
-  margin-bottom: 50px;
-  padding: 30px 15px;
-  line-height: 40px;
-  font-family: $body-font;
-  border: 1px solid black;
-  li a {
-    color: black;
-  }
-  li a:hover {
-    color: #0074E4;
-    text-decoration: none;
-    cursor: pointer;
+  padding: 30px 0px;
+  a {
+    color: $red;
   }
 }
-.fa-linkedin-square {
-  color: #0073BB;
-  :hover {
-    cursor: pointer;
+
+@media (max-width: 850px) {
+  .contact-form {
+    margin: 0px 10px;
   }
-}
-.fa-envelope-o {
-  color: black;
 }

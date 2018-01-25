@@ -1,13 +1,13 @@
 .btn-access {
-  background-color: #CF1B1B;
+  background-color: $red;
   color: white;
   margin-top: 20px;
   font-size: 18px;
 
 &:hover {
-  color: #CF1B1B;
+  color: $red;
   background-color: white;
-  border-color: #CF1B1B;
+  border-color: $red;
 }
 }
 .bio {
@@ -16,15 +16,27 @@
 .coordonnees {
   padding: 15px 25px;
   margin-left: 15px;
-  color: #CF1B1B;
+  color: $red;
   background-color: white;
-  border-color: #CF1B1B;
+  border-color: $red;
 
 &:hover {
-  background-color: #CF1B1B;
+  background-color: $red;
   color: white;
   margin-top: 20px;
   padding: 15px 25px;
   font-size: 18px;
 }
 }
+
+.btn-cadre {
+  padding: 10px 15px;
+  border: 2px solid #e7ecf1;
+
+}
+.btn-cadre:hover {
+  background-color: $red;
+  color: white;
+
+}
+

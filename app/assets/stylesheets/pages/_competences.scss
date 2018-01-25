@@ -17,12 +17,27 @@
 #competences {
   background-color: white;
   width: 100%;
-  h2 {
-  margin-top: 50px;
-  margin-bottom: 30px;
-  text-align: center;
-  }
 }
+
+.skills h2 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-weight: bolder;
+    position: relative;
+    letter-spacing: 2px;
+  }
+.skills h2:after{
+    content: "";
+    position: absolute;
+    width: 15%;
+    height: 1px;
+    bottom: -10px;
+    left: 43%;
+    border-bottom: 5px solid #333333;
+  }
+
+
 .front {
   padding-right: 30px;
 }
