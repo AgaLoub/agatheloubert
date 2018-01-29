@@ -52,7 +52,7 @@
 .navbar-wagon-dropdown-menu li > a {
   transition: color 0.3s ease;
   font-weight: lighter !important;
-  color: #999999 !important;
+  color: #99999 !important;
   font-size: 15px !important;
   line-height: 22px !important;
   padding: 10px 20px;
@@ -73,4 +73,6 @@
   border-left: 1px solid #E6E6E6;
   border-top: 1px solid #E6E6E6;
 }
-
+.fa {
+  color: white;
+}
