@@ -4,7 +4,7 @@
       <div class="col s10 offset-s1 col m8 offset-m2">
       <h2>CONTACT</h2>
 
-      <div class="contact-form">
+<!--       <div class="contact-form">
         <form method="POST" action="https://formspree.io/agaloubert@hotmail.com">
           <input type="text" name="name" placeholder="Votre nom" class="form-control" required>
           <input type="email" name="email" placeholder="Votre email" class="form-control" required>
@@ -14,7 +14,26 @@
           <center><input id="sweet-alert-demo" type="submit" value="Envoyer" class="btn btn-cadre"></center>
 
         </form>
-      </div>
+      </div> -->
+        <%= simple_form_for Contact.new do |f| %>
+            <% if flash[:error].present? %>
+                <p> flash[:error]</p>
+            <% end %>
+            <%= f.label :nom %> <br>
+            <%= f.text_field :nom, required: true %>
+
+            <br>
+            <%= f.label :email %> <br>
+            <%= f.text_field :email, required: true %>
+
+            <br>
+            <%= f.label :message %> <br>
+            <%= f.text_area :message, as: :text %>
+
+
+            <%= f.button :submit, "Envoyer", :class => "btn-details"%>
+          <% end %>
+
 
         <div class="bloc-infos">
             <p>Si vous souhaitez me contacter directement, voici mon adresse mail : <a href="mailto:agathe.loubert@gmail.com"><%= image_tag "mail.png" %></a></p>
