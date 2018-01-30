@@ -15,16 +15,18 @@
   font-size: 18px;
 }
 }
+.btn-form {
+  width: 35%;
+  margin-left: 250px;
+  padding: 10px 30px;
+}
 
 .btn-cadre {
-  padding: 10px 15px;
   border: 2px solid #e7ecf1;
-
 }
 .btn-cadre:hover {
   background-color: $red;
   color: white;
-
 }
 
 @media (max-width: 768px) {
