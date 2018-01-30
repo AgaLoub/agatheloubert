@@ -26,14 +26,16 @@
     border-bottom: 5px solid #333333;
   }
 
+#name_error {
+  color: red;
 
+}
 .form-horizontal {
-
   padding: 20px;
   margin-top: 20px;
   position: relative;
   input {
-  width: 90%;
+  width: 95%;
   margin: auto;
   margin-bottom: 10px;
   letter-spacing: 1.1px;
@@ -52,7 +54,7 @@
   }
   .textarea textarea {
     height: 163px;
-    width: 93%;
+    width: 100%;
     margin: auto;
     letter-spacing: 1.1px;
     margin-bottom: 30px;
@@ -77,10 +79,6 @@
     border: 2px solid #e7ecf1;
   }
 }
-.form-control {
-  margin: 10px 0px;
-  border: 2px solid #e7ecf1;
-}
 
 .message {
   padding-top: 15px;
@@ -98,8 +96,12 @@
   }
 }
 
+
 @media (max-width: 850px) {
   .contact-form {
     margin: 0px 10px;
+  }
+  .textarea textarea {
+    width: auto;
   }
 }

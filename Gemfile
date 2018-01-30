@@ -17,6 +17,7 @@ gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
 gem 'mail_form'
+gem 'jquery-rails'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
