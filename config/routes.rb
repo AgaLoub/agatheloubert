@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'projects/new'
+
   # get 'contact/new'
 
   devise_for :users
