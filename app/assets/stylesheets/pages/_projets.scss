@@ -1,0 +1,23 @@
+#projets {
+  width: 100%;
+  background-color: white;
+  overflow: hidden;
+  padding-bottom: 50px;
+}
+#projets h2 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-weight: bolder;
+    position: relative;
+    letter-spacing: 2px;
+  }
+#projets h2:after{
+    content: "";
+    position: absolute;
+    width: 12%;
+    height: 1px;
+    bottom: -10px;
+    left: 43%;
+    border-bottom: 5px solid #333333;
+  }
