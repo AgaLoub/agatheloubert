@@ -1,21 +1,125 @@
-<% content_for :meta_title, "Agathe Loubert, développeuse web" %>
-<% content_for :meta_description, "Développeuse full-stack" %>
+<div class="entire-homepage">
+  <div class="wrapper" style="background: linear-gradient(-225deg, rgb(243,122,0) 0%, rgb(250,74,0) 50%)">
+    <div class="text-center middle">
+      <div class="avatar"><%= image_tag 'photo2.png' %>
+      </div>
+        <div class="presentation-intro container">
+          <h1>AGATHE LOUBERT</h1>
+          <h3>Développeuse full-stack - Ruby On Rails </h3>
+          <h4>Paris, France</h4>
+          <hr>
+          <p class="text-intro">Formée au <a onclick="window.open('https://www.lewagon.com/fr')">Wagon</a>, coding bootcamp à Paris (batch 101), je propose de vous accompager dans la réalisation de vos projets web.</p>
+        </div>
+          <div class="icons-small">
+            <div class="column1">
+              <li id="parcours"><a type="button" data-toggle="modal" data-target=".bs-example-modal-lg1" style="text-decoration: none; color: white; cursor: pointer; background-color: #F7B236; padding: 15px; border-radius: 20px;"">Parcours</a></li>
+              <li><a type="button" data-toggle="modal" data-target=".bs-example-modal-lg2" style="text-decoration: none; color: white; cursor: pointer; background-color: #F7B236; padding: 15px; border-radius: 20px; "">Compétences</a></li>
+            </div>
+            <div class="column2">
+            <li><a type="button" data-toggle="modal" data-target=".bs-example-modal-lg3" style="text-decoration: none; color: white; cursor: pointer; background-color: #F7B236; padding: 15px; border-radius: 20px;"">Projets</a></li>
+            <li><a type="button" data-toggle="modal" data-target=".bs-example-modal-lg4" style="text-decoration: none; color: white; cursor: pointer; background-color: #F7B236; padding: 15px; border-radius: 20px;"">Contact</a></li>
+            </div>
+          </div>
 
-<%= render 'shared/navbar' %>
-
-<%= render 'pages/banner' %>
-
-<%= render 'pages/biographie' %>
-
-<%= render 'pages/competences' %>
-
-<%= render 'pages/projets' %>
-
-<%= render 'pages/contact' %>
-
-<%= render 'shared/footer' %>
+    </div>
 
 
+  </div>
+
+  <div class="menu-right">
+    <div class="links">
+      <i class="fab fa-linkedin" aria-hidden="true" onclick="window.open('https://www.linkedin.com/in/agathe-loubert-81a53350/')"></i>
+      <i class="fab fa-github" aria-hidden="true" onclick="window.open('https://github.com/AgaLoub')"></i></center>
+    </div>
+    <ul>
+      <li id="parcours"><a type="button" data-toggle="modal" data-target=".bs-example-modal-lg1" style="text-decoration: none; color: black; cursor: pointer;"">Parcours</a></li>
+      <li><a type="button" data-toggle="modal" data-target=".bs-example-modal-lg2" style="text-decoration: none; color: black; cursor: pointer;"">Compétences</a></li>
+      <li><a type="button" data-toggle="modal" data-target=".bs-example-modal-lg3" style="text-decoration: none; color: black; cursor: pointer;"">Projets</a></li>
+      <li><a type="button" data-toggle="modal" data-target=".bs-example-modal-lg4" style="text-decoration: none; color: black; cursor: pointer;"">Contact</a></li>
+    </ul>
+  </div>
 
 
+    <div class="modal fade bs-example-modal-lg1" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+          </button>
+            <h2>MON PARCOURS</h2>
+              <p>
+                Diplômée en 2012 de Sciences Po Lyon, j'ai travaillé pendant 4 ans chez Business France, en tant que chef de projet sur les secteurs de l'environnement et des énergies renouvelables. <br>Attirée par l'univers start-up, j'ai ensuite rejoint MiiMOSA, plateforme de financement participatif dédiée  l'agriculture et à l'alimentation, en tant que directrice du développement international. <br> <br>
+                Souhaitant développer de nouvelles compétences en tech, j'ai décidé en 2017 de suivre la formation de développement web au "Wagon", afin d'élargir mes connaissances. <br> <br>
+                Curieuse et passionnée, je suis disponible pour vous accompagner et vous conseiller dans la création et le développement de votre site internet !
+              </p>
+        </div>
+      </div>
+    </div>
 
+    <div class="modal fade bs-example-modal-lg2" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+          </button>
+              <div class="container-fluid skills competences">
+                <div class="row">
+                  <h2>MES COMPETENCES</h2>
+                  <div class="col-xs-12 col-sm-6 col-md-4 front">
+                    <i class="far fa-file-code" aria-hidden="true"></i>
+                    <h4>FRONT-END</h4> <br>
+                    <p>HTML, <br>CSS, <br>Bootstrap, <br>Javascript</p>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 col-md-4">
+                    <i class="fa fa-cogs" aria-hidden="true"></i>
+                    <h4>BACK-END</h4> <br>
+                    <p>Ruby on Rails, <br>SQL, <br>Intégration web, <br>Site responsive</p>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 col-md-4">
+                    <i class="fas fa-code-branch" aria-hidden="true"></i>
+                    <h4>DEPLOIEMENT & HEBERGEMENT</h4>
+                    <p>Git, <br>Github, <br>Heroku</p>
+                  </div>
+                </div>
+              </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade bs-example-modal-lg3" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+          </button>
+            <h2>MES PROJETS</h2>
+              <div class="container projects">
+                <div class="row">
+                  <div class="col-xs-12 col-sm-4">
+                      <div class="projet-description">
+                        <a onclick="window.open('http://www.fundofyou.fr/')"><h3>www.fundofyou.fr</h3></a>
+                        <p>Projet réalisé au Wagon <br>(décembre 2017)</p>
+                      </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-4">
+                    <a onclick="window.open('http://www.fundofyou.fr/')"><div class="card" style="background-image: url(<%= image_path "fundofyou.png" %>)""></div></a>
+
+                  </div>
+                </div>
+              </div>
+              <p>
+              </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade bs-example-modal-lg4" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+          </button>
+            <h2>CONTACT</h2>
+              <p class="bloc-infos">Vous pouvez me contacter à cette adresse<a href="mailto:agathe.loubert@gmail.com"><%= image_tag "adresse.png" %></a>ou au 06.58.95.25.01</p>
+
+              </p>
+        </div>
+      </div>
+    </div>
+</div>
