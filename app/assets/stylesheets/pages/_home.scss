@@ -200,7 +200,7 @@
 
 @media (max-width: 768px) {
   .middle {
-    padding-top: 50px;
+    padding-top: 30px;
   }
 .presentation-intro h1 {
   font-size: 28px;
@@ -227,27 +227,20 @@
 }
 .icons-small {
   visibility: visible;
-  padding-top: 5px;
 }
 .wrapper {
   overflow: visible;
 }
+.projet-description {
+  order: 1;
+}
+.image-description {
+  order: 0;
+}
 }
 
-// @media (max-width: 768px) {
-//   .entire-homepage {
-//     flex-flow: column;
-//   }
-//   .wrapper {
-//     order: 1;
-// }
-// .menu-right {
-//    order: 0;
-//    height: 30px;
-//    flex-flow: row;
-//    }
-//  .menu-right ul li {
-//     display: inline;
-//    }
-
-// }
+@media (max-width: 400px) {
+.text-intro {
+  display: none;
+}
+}
